@@ -1,0 +1,45 @@
+body {
+    font-family: Cursive, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #800080;
+    color: #00FFFF;
+    text-align: center;
+    padding: 20px;
+}
+.wrap {
+    display: flex;
+}
+
+.content {
+    flex: 1; /* Equal width for all columns */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #FFC0CB;
+}
+.color-example h3 {
+    color: #00FFFF;
+}
+.color-example p {
+  background-color: #FFC0CB;
+}
+.typography-example p {
+    font-family: 'Cursive', Arial; 
+    font-size: 20px;
+}
+.typography-example p {
+    text-align: right;
+    line-height: 1.0;
+}
+#uniqueDiv {
+    background-color: #FFC0CB;
+    font-size: 18px;
+}
+.info {
+    border: 2px solid #FFC0CB;
+    padding: 10px;
+}
